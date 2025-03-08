@@ -6,11 +6,11 @@ let gridSize;
 if (window.innerWidth < 576) {
   canvas.width = window.innerWidth * 0.9; // Aggiungiamo un margine del 10%
   canvas.height = window.innerWidth * 0.9; // Manteniamo un canvas quadrato
-  gridSize = canvas.width / 10; // Dimensione della griglia ridotta per dispositivi mobili
+  gridSize = canvas.width / 8; // Dimensione della griglia per dispositivi mobili (8x8)
 } else {
   canvas.width = window.innerWidth * 0.9; // Aggiungiamo un margine del 10%
   canvas.height = window.innerWidth * 0.9; // Manteniamo un canvas quadrato
-  gridSize = canvas.width / 10; // Dimensione della griglia ridotta per dispositivi mobili
+  gridSize = canvas.width / 8; // Dimensione della griglia per dispositivi mobili (8x8)
 }
 
 const snake = [{ x: 2, y: 2 }];

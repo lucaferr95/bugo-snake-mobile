@@ -8,25 +8,20 @@ body {
 }
 
 h1 {
-  background-color: goldenrod;
+  background-color: rgb(255, 53, 53);
   font-size: 25px;
   font-family: "Indie Flower", cursive;
   color: black;
-  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff00ff, 0 0 30px #ff00ff,
-    0 0 40px #ff00ff, 0 0 50px #ff00ff, 0 0 60px #ff00ff, 0 0 70px #ff00ff;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fafafa, 0 0 30px #ff00ff,
+    0 0 40px #f6ebeb, 0 0 50px #fff1f1, 0 0 60px #f5e9e9, 0 0 70px #0f000f;
   text-align: center;
 }
 
 p {
-  background-color: goldenrod;
   font-size: 15px;
-  color: rgb(245, 4, 4);
+  color: rgb(0, 0, 0);
   text-align: center;
   font-weight: bold;
-}
-
-canvas {
-  border: 1px solid black;
 }
 
 .text {
