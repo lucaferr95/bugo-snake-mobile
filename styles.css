@@ -1,0 +1,50 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  background-color: goldenrod;
+  font-size: 25px;
+  font-family: "Indie Flower", cursive;
+  color: black;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff00ff, 0 0 30px #ff00ff,
+    0 0 40px #ff00ff, 0 0 50px #ff00ff, 0 0 60px #ff00ff, 0 0 70px #ff00ff;
+  text-align: center;
+}
+
+p {
+  background-color: goldenrod;
+  font-size: 15px;
+  color: rgb(245, 4, 4);
+  text-align: center;
+  font-weight: bold;
+}
+
+canvas {
+  border: 1px solid black;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+}
+
+.winText {
+  font-size: 32px;
+  background-color: rgba(246, 234, 206, 0.578);
+  font-family: "Indie Flower", cursive;
+  color: rgb(1, 11, 1);
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff00ff, 0 0 30px #dfbadf,
+    0 0 40px #160116, 0 0 50px #2a052a, 0 0 60px #2e052e, 0 0 70px #360436;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
